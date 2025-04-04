@@ -1,0 +1,33 @@
+how the files will be stored:
+
+Tower {
+	[32]name
+	[ 4]floors
+	chunks{
+		[??]Board
+	}
+}
+
+Board {
+	[ 4]x
+	[ 4]y
+	chunks{
+		[??]Things;
+		[ 4]x
+		[ 4]y
+	}
+}
+
+Thing {
+	[1]ID, 0 if unique
+	[1]display character
+	[1]stance
+	[1]',' OR ';'
+		//if ',' then being stats follow, as this is part of a being
+		//if ';' then no being stats follow, it is only a thing
+}
+
+Being {
+	[24]stats
+}
+

@@ -1,0 +1,7 @@
+#ifndef UTT_BEING_LOAD_C
+#define UTT_BEING_LOAD_C
+
+#include <stdio.h>
+#include "../structs/being.h"
+
+#endif

@@ -1,0 +1,12 @@
+air        ' '
+wall       '#'
+door       '-'
+stair up   '^'
+stair down 'v'
+player     'P'
+enemy      'E'
+friend     'F'
+neutral    'N'
+hiding     'H'
+running    'R'
+
